@@ -1,0 +1,1230 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BCBB1ACBA80CEDD7847729A /* Pods_CartoonSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEAA247678920FAB5B21783 /* Pods_CartoonSwiftUITests.framework */; };
+		77F235F9A43889D35642F637 /* Pods_CartoonSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81D77B512F685173A6B70844 /* Pods_CartoonSwift.framework */; };
+		CC3AA05B22EC6F3800307E26 /* RZCartoonSubscribeHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA05A22EC6F3800307E26 /* RZCartoonSubscribeHomeViewController.swift */; };
+		CC3AA05D22EC6F7600307E26 /* RZCartoonSortHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA05C22EC6F7600307E26 /* RZCartoonSortHomeViewController.swift */; };
+		CC3AA05F22EC8D0B00307E26 /* RZCartoonSearchHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA05E22EC8D0B00307E26 /* RZCartoonSearchHomeViewController.swift */; };
+		CC3AA06122ED642F00307E26 /* RZCartoonSortListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06022ED642F00307E26 /* RZCartoonSortListTableViewCell.swift */; };
+		CC3AA06322ED646E00307E26 /* RZCartoonBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06222ED646E00307E26 /* RZCartoonBaseTableViewCell.swift */; };
+		CC3AA06522EE91A200307E26 /* RZCartoonCateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06422EE91A200307E26 /* RZCartoonCateCollectionViewCell.swift */; };
+		CC3AA06722EED0C100307E26 /* RZCartoonBaseWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06622EED0C100307E26 /* RZCartoonBaseWebViewController.swift */; };
+		CC3AA06922EFDA5700307E26 /* RZCartoonDetailPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06822EFDA5700307E26 /* RZCartoonDetailPageViewController.swift */; };
+		CC3AA06C22F0444000307E26 /* RZCartoonTabDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06B22F0444000307E26 /* RZCartoonTabDetailViewController.swift */; };
+		CC3AA06E22F0445A00307E26 /* RZCartoonCommentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06D22F0445A00307E26 /* RZCartoonCommentListViewController.swift */; };
+		CC3AA07022F044BD00307E26 /* RZCartoonTableListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA06F22F044BD00307E26 /* RZCartoonTableListViewController.swift */; };
+		CC3AA07222F0492E00307E26 /* RZCartoonDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA07122F0492E00307E26 /* RZCartoonDetailHeaderView.swift */; };
+		CC3AA07422F0495300307E26 /* RZCartoonBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA07322F0495300307E26 /* RZCartoonBaseView.swift */; };
+		CC3AA07922F1391300307E26 /* ParallaxHeaderMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA07622F1391300307E26 /* ParallaxHeaderMode.swift */; };
+		CC3AA07A22F1391300307E26 /* UIScrollView+ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA07722F1391300307E26 /* UIScrollView+ParallaxHeader.swift */; };
+		CC3AA07B22F1391300307E26 /* ParallaxHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA07822F1391300307E26 /* ParallaxHeader.swift */; };
+		CC3AA07E22F16C4900307E26 /* RZCartoonDetailFirstTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA07D22F16C4900307E26 /* RZCartoonDetailFirstTableViewCell.swift */; };
+		CC3AA08022F16D0E00307E26 /* RZCartoonTabListCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA07F22F16D0E00307E26 /* RZCartoonTabListCollectionViewCell.swift */; };
+		CC3AA08222F16D2200307E26 /* RZCartoonCommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA08122F16D2200307E26 /* RZCartoonCommentTableViewCell.swift */; };
+		CC3AA08622F27B4100307E26 /* RZProgressHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3AA08522F27B4100307E26 /* RZProgressHUD.swift */; };
+		CC3D076A230245E200DDB5AC /* RZCartoonHotSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D0769230245E200DDB5AC /* RZCartoonHotSearchTableViewCell.swift */; };
+		CC3D076C2303A04800DDB5AC /* RZCartoonMineHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D076B2303A04800DDB5AC /* RZCartoonMineHeadView.swift */; };
+		CCBAACEC22F42C5000C8348C /* RZCartoonOtherProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACEB22F42C5000C8348C /* RZCartoonOtherProductViewController.swift */; };
+		CCBAACEE22F4394A00C8348C /* RZCartoonCateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACED22F4394A00C8348C /* RZCartoonCateDetailViewController.swift */; };
+		CCBAACF022F4397E00C8348C /* RZCartoonCateDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACEF22F4397E00C8348C /* RZCartoonCateDetailTableViewCell.swift */; };
+		CCBAACF222F8190B00C8348C /* RZCartoonAnimaDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACF122F8190900C8348C /* RZCartoonAnimaDetailViewController.swift */; };
+		CCBAACF422F8193D00C8348C /* RZCartoonAnimationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACF322F8193D00C8348C /* RZCartoonAnimationTableViewCell.swift */; };
+		CCBAACFA22F96F2A00C8348C /* RZCartoonChapterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACF922F96F2900C8348C /* RZCartoonChapterDetailViewController.swift */; };
+		CCBAACFC22FA5F2A00C8348C /* RZCartoonChapterDetailCollecCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACFB22FA5F2A00C8348C /* RZCartoonChapterDetailCollecCell.swift */; };
+		CCBAACFE22FD5FEB00C8348C /* SnapKitExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAACFD22FD5FE900C8348C /* SnapKitExtension.swift */; };
+		CCBAAD012301607E00C8348C /* RZCartoonSectionSpaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAAD002301607C00C8348C /* RZCartoonSectionSpaceView.swift */; };
+		CCBAAD032301610A00C8348C /* RZCartoonSearchHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAAD022301610A00C8348C /* RZCartoonSearchHeadView.swift */; };
+		CCBAAD0523016F6100C8348C /* UCollectionViewAlignedLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBAAD0423016F6000C8348C /* UCollectionViewAlignedLayout.swift */; };
+		CCF0B68F22E1A33300623CC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B68E22E1A33300623CC3 /* AppDelegate.swift */; };
+		CCF0B69122E1A33300623CC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B69022E1A33300623CC3 /* ViewController.swift */; };
+		CCF0B69422E1A33300623CC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF0B69222E1A33300623CC3 /* Main.storyboard */; };
+		CCF0B69622E1A33500623CC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF0B69522E1A33500623CC3 /* Assets.xcassets */; };
+		CCF0B69922E1A33600623CC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF0B69722E1A33600623CC3 /* LaunchScreen.storyboard */; };
+		CCF0B6A422E1A33600623CC3 /* CartoonSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6A322E1A33600623CC3 /* CartoonSwiftTests.swift */; };
+		CCF0B6AF22E1A33600623CC3 /* CartoonSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6AE22E1A33600623CC3 /* CartoonSwiftUITests.swift */; };
+		CCF0B6D522E1AAEE00623CC3 /* RZCartonBaseTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6D422E1AAEE00623CC3 /* RZCartonBaseTabbarController.swift */; };
+		CCF0B6D722E1AB1600623CC3 /* RZCartoonBaseNaviController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6D622E1AB1600623CC3 /* RZCartoonBaseNaviController.swift */; };
+		CCF0B6D922E1AB3D00623CC3 /* RZCartoonBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6D822E1AB3D00623CC3 /* RZCartoonBaseViewController.swift */; };
+		CCF0B6DB22E1AB8B00623CC3 /* RZCartoonHomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6DA22E1AB8B00623CC3 /* RZCartoonHomePageViewController.swift */; };
+		CCF0B6DD22E1ABA500623CC3 /* RZCartoonCateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6DC22E1ABA500623CC3 /* RZCartoonCateViewController.swift */; };
+		CCF0B6DF22E1ABB600623CC3 /* RZCartoonBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6DE22E1ABB600623CC3 /* RZCartoonBookViewController.swift */; };
+		CCF0B6E122E1ABC800623CC3 /* RZCartoonMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6E022E1ABC800623CC3 /* RZCartoonMineViewController.swift */; };
+		CCF0B6E422E54AEB00623CC3 /* RZCartoonPageControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6E322E54AEB00623CC3 /* RZCartoonPageControlViewController.swift */; };
+		CCF0B6E622E54DBC00623CC3 /* RZCartoonRecommendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6E522E54DBC00623CC3 /* RZCartoonRecommendController.swift */; };
+		CCF0B6E922E5545700623CC3 /* RZCartoonDefineFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6E822E5545700623CC3 /* RZCartoonDefineFile.swift */; };
+		CCF0B6EB22E5556600623CC3 /* RZCartoonUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6EA22E5556600623CC3 /* RZCartoonUIColorExtension.swift */; };
+		CCF0B6ED22E559A300623CC3 /* RZCartoonHomePageVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6EC22E559A300623CC3 /* RZCartoonHomePageVM.swift */; };
+		CCF0B6F122E59CD400623CC3 /* RZCartoonCollectionFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6F022E59CD300623CC3 /* RZCartoonCollectionFlowLayout.swift */; };
+		CCF0B6F322E5BB5B00623CC3 /* RZCartoonHopeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6F222E5BB5B00623CC3 /* RZCartoonHopeCollectionViewCell.swift */; };
+		CCF0B6F622E5BBD800623CC3 /* RZCartoonBaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6F522E5BBD800623CC3 /* RZCartoonBaseCollectionViewCell.swift */; };
+		CCF0B6F822E6A5DA00623CC3 /* RZCartoonAlamofireTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6F722E6A5DA00623CC3 /* RZCartoonAlamofireTool.swift */; };
+		CCF0B6FC22E6F41800623CC3 /* RZCartoonHopeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B6FB22E6F41800623CC3 /* RZCartoonHopeModel.swift */; };
+		CCF0B70622E83A4E00623CC3 /* RZCartoonNetworkName.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B70522E83A4E00623CC3 /* RZCartoonNetworkName.swift */; };
+		CCF0B70822EA929C00623CC3 /* RZBaseCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B70722EA929C00623CC3 /* RZBaseCollectionReusableView.swift */; };
+		CCF0B70A22EA935000623CC3 /* RZHopeCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B70922EA935000623CC3 /* RZHopeCollectionReusableView.swift */; };
+		CCF0B70C22EAE44800623CC3 /* RZCartoonAnotherHopeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B70B22EAE44700623CC3 /* RZCartoonAnotherHopeCollectionViewCell.swift */; };
+		CCF0B70E22EAF47400623CC3 /* RZHopeCollectionFooterReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B70D22EAF47400623CC3 /* RZHopeCollectionFooterReusableView.swift */; };
+		CCF0B71022EB3A0700623CC3 /* RZCartoonVipHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0B70F22EB3A0600623CC3 /* RZCartoonVipHomeViewController.swift */; };
+		E3B26470AD9CBD4BD136DA8F /* Pods_CartoonSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2678EBF9F6C8EE6AE8272862 /* Pods_CartoonSwiftTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF0B6A022E1A33600623CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF0B68322E1A33300623CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF0B68A22E1A33300623CC3;
+			remoteInfo = CartoonSwift;
+		};
+		CCF0B6AB22E1A33600623CC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF0B68322E1A33300623CC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF0B68A22E1A33300623CC3;
+			remoteInfo = CartoonSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24E301E6D456C422795345B9 /* Pods-CartoonSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CartoonSwiftTests/Pods-CartoonSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		2678EBF9F6C8EE6AE8272862 /* Pods_CartoonSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartoonSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		581D01AD8D2975E11F029565 /* Pods-CartoonSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CartoonSwiftTests/Pods-CartoonSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		608B097CA7301C12CA9F0C4C /* Pods-CartoonSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CartoonSwiftUITests/Pods-CartoonSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		711808B5B0FD4B1CE9987315 /* Pods-CartoonSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CartoonSwift/Pods-CartoonSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		722A0AF2CE9E2BFB098EF87C /* Pods-CartoonSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-CartoonSwift/Pods-CartoonSwift.release.xcconfig"; sourceTree = "<group>"; };
+		81D77B512F685173A6B70844 /* Pods_CartoonSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartoonSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C361FB2258E0594F8B4FC542 /* Pods-CartoonSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CartoonSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CartoonSwiftUITests/Pods-CartoonSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CC3AA05A22EC6F3800307E26 /* RZCartoonSubscribeHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonSubscribeHomeViewController.swift; sourceTree = "<group>"; };
+		CC3AA05C22EC6F7600307E26 /* RZCartoonSortHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonSortHomeViewController.swift; sourceTree = "<group>"; };
+		CC3AA05E22EC8D0B00307E26 /* RZCartoonSearchHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonSearchHomeViewController.swift; sourceTree = "<group>"; };
+		CC3AA06022ED642F00307E26 /* RZCartoonSortListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonSortListTableViewCell.swift; sourceTree = "<group>"; };
+		CC3AA06222ED646E00307E26 /* RZCartoonBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonBaseTableViewCell.swift; sourceTree = "<group>"; };
+		CC3AA06422EE91A200307E26 /* RZCartoonCateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonCateCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC3AA06622EED0C100307E26 /* RZCartoonBaseWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonBaseWebViewController.swift; sourceTree = "<group>"; };
+		CC3AA06822EFDA5700307E26 /* RZCartoonDetailPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonDetailPageViewController.swift; sourceTree = "<group>"; };
+		CC3AA06B22F0444000307E26 /* RZCartoonTabDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonTabDetailViewController.swift; sourceTree = "<group>"; };
+		CC3AA06D22F0445A00307E26 /* RZCartoonCommentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonCommentListViewController.swift; sourceTree = "<group>"; };
+		CC3AA06F22F044BD00307E26 /* RZCartoonTableListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonTableListViewController.swift; sourceTree = "<group>"; };
+		CC3AA07122F0492E00307E26 /* RZCartoonDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonDetailHeaderView.swift; sourceTree = "<group>"; };
+		CC3AA07322F0495300307E26 /* RZCartoonBaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonBaseView.swift; sourceTree = "<group>"; };
+		CC3AA07622F1391300307E26 /* ParallaxHeaderMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeaderMode.swift; sourceTree = "<group>"; };
+		CC3AA07722F1391300307E26 /* UIScrollView+ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+ParallaxHeader.swift"; sourceTree = "<group>"; };
+		CC3AA07822F1391300307E26 /* ParallaxHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParallaxHeader.swift; sourceTree = "<group>"; };
+		CC3AA07D22F16C4900307E26 /* RZCartoonDetailFirstTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonDetailFirstTableViewCell.swift; sourceTree = "<group>"; };
+		CC3AA07F22F16D0E00307E26 /* RZCartoonTabListCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonTabListCollectionViewCell.swift; sourceTree = "<group>"; };
+		CC3AA08122F16D2200307E26 /* RZCartoonCommentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonCommentTableViewCell.swift; sourceTree = "<group>"; };
+		CC3AA08522F27B4100307E26 /* RZProgressHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZProgressHUD.swift; sourceTree = "<group>"; };
+		CC3D0769230245E200DDB5AC /* RZCartoonHotSearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonHotSearchTableViewCell.swift; sourceTree = "<group>"; };
+		CC3D076B2303A04800DDB5AC /* RZCartoonMineHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonMineHeadView.swift; sourceTree = "<group>"; };
+		CCBAACEB22F42C5000C8348C /* RZCartoonOtherProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonOtherProductViewController.swift; sourceTree = "<group>"; };
+		CCBAACED22F4394A00C8348C /* RZCartoonCateDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonCateDetailViewController.swift; sourceTree = "<group>"; };
+		CCBAACEF22F4397E00C8348C /* RZCartoonCateDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonCateDetailTableViewCell.swift; sourceTree = "<group>"; };
+		CCBAACF122F8190900C8348C /* RZCartoonAnimaDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonAnimaDetailViewController.swift; sourceTree = "<group>"; };
+		CCBAACF322F8193D00C8348C /* RZCartoonAnimationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonAnimationTableViewCell.swift; sourceTree = "<group>"; };
+		CCBAACF922F96F2900C8348C /* RZCartoonChapterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonChapterDetailViewController.swift; sourceTree = "<group>"; };
+		CCBAACFB22FA5F2A00C8348C /* RZCartoonChapterDetailCollecCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonChapterDetailCollecCell.swift; sourceTree = "<group>"; };
+		CCBAACFD22FD5FE900C8348C /* SnapKitExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapKitExtension.swift; sourceTree = "<group>"; };
+		CCBAAD002301607C00C8348C /* RZCartoonSectionSpaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonSectionSpaceView.swift; sourceTree = "<group>"; };
+		CCBAAD022301610A00C8348C /* RZCartoonSearchHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonSearchHeadView.swift; sourceTree = "<group>"; };
+		CCBAAD0423016F6000C8348C /* UCollectionViewAlignedLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UCollectionViewAlignedLayout.swift; sourceTree = "<group>"; };
+		CCF0B68B22E1A33300623CC3 /* CartoonSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartoonSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF0B68E22E1A33300623CC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF0B69022E1A33300623CC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF0B69322E1A33300623CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF0B69522E1A33500623CC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF0B69822E1A33600623CC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF0B69A22E1A33600623CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF0B69F22E1A33600623CC3 /* CartoonSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartoonSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF0B6A322E1A33600623CC3 /* CartoonSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonSwiftTests.swift; sourceTree = "<group>"; };
+		CCF0B6A522E1A33600623CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF0B6AA22E1A33600623CC3 /* CartoonSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartoonSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF0B6AE22E1A33600623CC3 /* CartoonSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartoonSwiftUITests.swift; sourceTree = "<group>"; };
+		CCF0B6B022E1A33600623CC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF0B6D422E1AAEE00623CC3 /* RZCartonBaseTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartonBaseTabbarController.swift; sourceTree = "<group>"; };
+		CCF0B6D622E1AB1600623CC3 /* RZCartoonBaseNaviController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonBaseNaviController.swift; sourceTree = "<group>"; };
+		CCF0B6D822E1AB3D00623CC3 /* RZCartoonBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonBaseViewController.swift; sourceTree = "<group>"; };
+		CCF0B6DA22E1AB8B00623CC3 /* RZCartoonHomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonHomePageViewController.swift; sourceTree = "<group>"; };
+		CCF0B6DC22E1ABA500623CC3 /* RZCartoonCateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonCateViewController.swift; sourceTree = "<group>"; };
+		CCF0B6DE22E1ABB600623CC3 /* RZCartoonBookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonBookViewController.swift; sourceTree = "<group>"; };
+		CCF0B6E022E1ABC800623CC3 /* RZCartoonMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonMineViewController.swift; sourceTree = "<group>"; };
+		CCF0B6E322E54AEB00623CC3 /* RZCartoonPageControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonPageControlViewController.swift; sourceTree = "<group>"; };
+		CCF0B6E522E54DBC00623CC3 /* RZCartoonRecommendController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonRecommendController.swift; sourceTree = "<group>"; };
+		CCF0B6E822E5545700623CC3 /* RZCartoonDefineFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonDefineFile.swift; sourceTree = "<group>"; };
+		CCF0B6EA22E5556600623CC3 /* RZCartoonUIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonUIColorExtension.swift; sourceTree = "<group>"; };
+		CCF0B6EC22E559A300623CC3 /* RZCartoonHomePageVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonHomePageVM.swift; sourceTree = "<group>"; };
+		CCF0B6F022E59CD300623CC3 /* RZCartoonCollectionFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonCollectionFlowLayout.swift; sourceTree = "<group>"; };
+		CCF0B6F222E5BB5B00623CC3 /* RZCartoonHopeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonHopeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCF0B6F522E5BBD800623CC3 /* RZCartoonBaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonBaseCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCF0B6F722E6A5DA00623CC3 /* RZCartoonAlamofireTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonAlamofireTool.swift; sourceTree = "<group>"; };
+		CCF0B6FB22E6F41800623CC3 /* RZCartoonHopeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonHopeModel.swift; sourceTree = "<group>"; };
+		CCF0B70522E83A4E00623CC3 /* RZCartoonNetworkName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonNetworkName.swift; sourceTree = "<group>"; };
+		CCF0B70722EA929C00623CC3 /* RZBaseCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZBaseCollectionReusableView.swift; sourceTree = "<group>"; };
+		CCF0B70922EA935000623CC3 /* RZHopeCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZHopeCollectionReusableView.swift; sourceTree = "<group>"; };
+		CCF0B70B22EAE44700623CC3 /* RZCartoonAnotherHopeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonAnotherHopeCollectionViewCell.swift; sourceTree = "<group>"; };
+		CCF0B70D22EAF47400623CC3 /* RZHopeCollectionFooterReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZHopeCollectionFooterReusableView.swift; sourceTree = "<group>"; };
+		CCF0B70F22EB3A0600623CC3 /* RZCartoonVipHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RZCartoonVipHomeViewController.swift; sourceTree = "<group>"; };
+		FFEAA247678920FAB5B21783 /* Pods_CartoonSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CartoonSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF0B68822E1A33300623CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77F235F9A43889D35642F637 /* Pods_CartoonSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0B69C22E1A33600623CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B26470AD9CBD4BD136DA8F /* Pods_CartoonSwiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0B6A722E1A33600623CC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCBB1ACBA80CEDD7847729A /* Pods_CartoonSwiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2114D496D5F76F6320A92CED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				711808B5B0FD4B1CE9987315 /* Pods-CartoonSwift.debug.xcconfig */,
+				722A0AF2CE9E2BFB098EF87C /* Pods-CartoonSwift.release.xcconfig */,
+				581D01AD8D2975E11F029565 /* Pods-CartoonSwiftTests.debug.xcconfig */,
+				24E301E6D456C422795345B9 /* Pods-CartoonSwiftTests.release.xcconfig */,
+				608B097CA7301C12CA9F0C4C /* Pods-CartoonSwiftUITests.debug.xcconfig */,
+				C361FB2258E0594F8B4FC542 /* Pods-CartoonSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A70FF1E1CACC789AA4BD639 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				81D77B512F685173A6B70844 /* Pods_CartoonSwift.framework */,
+				2678EBF9F6C8EE6AE8272862 /* Pods_CartoonSwiftTests.framework */,
+				FFEAA247678920FAB5B21783 /* Pods_CartoonSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC3AA06A22F0404E00307E26 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				CC3AA06822EFDA5700307E26 /* RZCartoonDetailPageViewController.swift */,
+				CC3AA06B22F0444000307E26 /* RZCartoonTabDetailViewController.swift */,
+				CC3AA06F22F044BD00307E26 /* RZCartoonTableListViewController.swift */,
+				CC3AA06D22F0445A00307E26 /* RZCartoonCommentListViewController.swift */,
+				CCBAACEB22F42C5000C8348C /* RZCartoonOtherProductViewController.swift */,
+				CCBAACF122F8190900C8348C /* RZCartoonAnimaDetailViewController.swift */,
+				CCBAACF922F96F2900C8348C /* RZCartoonChapterDetailViewController.swift */,
+			);
+			path = DetailVC;
+			sourceTree = "<group>";
+		};
+		CC3AA07522F1391300307E26 /* ParallaxHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CC3AA07622F1391300307E26 /* ParallaxHeaderMode.swift */,
+				CC3AA07722F1391300307E26 /* UIScrollView+ParallaxHeader.swift */,
+				CC3AA07822F1391300307E26 /* ParallaxHeader.swift */,
+			);
+			path = ParallaxHeader;
+			sourceTree = "<group>";
+		};
+		CC3AA07C22F16AB000307E26 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				CC3AA07122F0492E00307E26 /* RZCartoonDetailHeaderView.swift */,
+				CC3AA07D22F16C4900307E26 /* RZCartoonDetailFirstTableViewCell.swift */,
+				CC3AA07F22F16D0E00307E26 /* RZCartoonTabListCollectionViewCell.swift */,
+				CC3AA08122F16D2200307E26 /* RZCartoonCommentTableViewCell.swift */,
+				CCBAACF322F8193D00C8348C /* RZCartoonAnimationTableViewCell.swift */,
+				CCBAACFB22FA5F2A00C8348C /* RZCartoonChapterDetailCollecCell.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		CCBAACFF23015FD100C8348C /* SearchView */ = {
+			isa = PBXGroup;
+			children = (
+				CCBAAD022301610A00C8348C /* RZCartoonSearchHeadView.swift */,
+				CC3D0769230245E200DDB5AC /* RZCartoonHotSearchTableViewCell.swift */,
+			);
+			path = SearchView;
+			sourceTree = "<group>";
+		};
+		CCF0B68222E1A33300623CC3 = {
+			isa = PBXGroup;
+			children = (
+				CCF0B68D22E1A33300623CC3 /* CartoonSwift */,
+				CCF0B6A222E1A33600623CC3 /* CartoonSwiftTests */,
+				CCF0B6AD22E1A33600623CC3 /* CartoonSwiftUITests */,
+				CCF0B68C22E1A33300623CC3 /* Products */,
+				2114D496D5F76F6320A92CED /* Pods */,
+				8A70FF1E1CACC789AA4BD639 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF0B68C22E1A33300623CC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B68B22E1A33300623CC3 /* CartoonSwift.app */,
+				CCF0B69F22E1A33600623CC3 /* CartoonSwiftTests.xctest */,
+				CCF0B6AA22E1A33600623CC3 /* CartoonSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF0B68D22E1A33300623CC3 /* CartoonSwift */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6E722E5532200623CC3 /* RZGlobalThing */,
+				CCF0B6E222E1C85100623CC3 /* RZNetwork */,
+				CCF0B6D322E1AA7F00623CC3 /* RZCartoonTool */,
+				CCF0B6D222E1AA0500623CC3 /* RZCartoonExtension */,
+				CCF0B6D122E1A9F200623CC3 /* RZCartoonBaseThing */,
+				CCF0B6BD22E1A82600623CC3 /* RZCartoonHomePage */,
+				CCF0B6BE22E1A86A00623CC3 /* RZCartoonCategory */,
+				CCF0B6BF22E1A87800623CC3 /* RZCartoonBook */,
+				CCF0B6C022E1A87D00623CC3 /* RZCartoonMine */,
+				CCF0B6BC22E1A7FA00623CC3 /* Others */,
+			);
+			path = CartoonSwift;
+			sourceTree = "<group>";
+		};
+		CCF0B6A222E1A33600623CC3 /* CartoonSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6A322E1A33600623CC3 /* CartoonSwiftTests.swift */,
+				CCF0B6A522E1A33600623CC3 /* Info.plist */,
+			);
+			path = CartoonSwiftTests;
+			sourceTree = "<group>";
+		};
+		CCF0B6AD22E1A33600623CC3 /* CartoonSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6AE22E1A33600623CC3 /* CartoonSwiftUITests.swift */,
+				CCF0B6B022E1A33600623CC3 /* Info.plist */,
+			);
+			path = CartoonSwiftUITests;
+			sourceTree = "<group>";
+		};
+		CCF0B6BC22E1A7FA00623CC3 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B68E22E1A33300623CC3 /* AppDelegate.swift */,
+				CCF0B69022E1A33300623CC3 /* ViewController.swift */,
+				CCF0B69222E1A33300623CC3 /* Main.storyboard */,
+				CCF0B69522E1A33500623CC3 /* Assets.xcassets */,
+				CCF0B69722E1A33600623CC3 /* LaunchScreen.storyboard */,
+				CCF0B69A22E1A33600623CC3 /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		CCF0B6BD22E1A82600623CC3 /* RZCartoonHomePage */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6C422E1A93000623CC3 /* VC */,
+				CCF0B6C322E1A92D00623CC3 /* View */,
+				CCF0B6C222E1A92600623CC3 /* ViewModel */,
+				CCF0B6C122E1A92200623CC3 /* Model */,
+			);
+			path = RZCartoonHomePage;
+			sourceTree = "<group>";
+		};
+		CCF0B6BE22E1A86A00623CC3 /* RZCartoonCategory */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6C822E1A96B00623CC3 /* VC */,
+				CCF0B6C722E1A96900623CC3 /* View */,
+				CCF0B6C622E1A96400623CC3 /* ViewModel */,
+				CCF0B6C522E1A96000623CC3 /* Model */,
+			);
+			path = RZCartoonCategory;
+			sourceTree = "<group>";
+		};
+		CCF0B6BF22E1A87800623CC3 /* RZCartoonBook */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6CC22E1A98F00623CC3 /* VC */,
+				CCF0B6CB22E1A98C00623CC3 /* View */,
+				CCF0B6CA22E1A98700623CC3 /* ViewModel */,
+				CCF0B6C922E1A98200623CC3 /* Model */,
+			);
+			path = RZCartoonBook;
+			sourceTree = "<group>";
+		};
+		CCF0B6C022E1A87D00623CC3 /* RZCartoonMine */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6D022E1A9AA00623CC3 /* VC */,
+				CCF0B6CF22E1A9A600623CC3 /* View */,
+				CCF0B6CE22E1A9A300623CC3 /* ViewModel */,
+				CCF0B6CD22E1A9A000623CC3 /* Model */,
+			);
+			path = RZCartoonMine;
+			sourceTree = "<group>";
+		};
+		CCF0B6C122E1A92200623CC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6FB22E6F41800623CC3 /* RZCartoonHopeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCF0B6C222E1A92600623CC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6EC22E559A300623CC3 /* RZCartoonHomePageVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCF0B6C322E1A92D00623CC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CCBAACFF23015FD100C8348C /* SearchView */,
+				CC3AA07C22F16AB000307E26 /* DetailView */,
+				CCF0B6F222E5BB5B00623CC3 /* RZCartoonHopeCollectionViewCell.swift */,
+				CCF0B70B22EAE44700623CC3 /* RZCartoonAnotherHopeCollectionViewCell.swift */,
+				CCF0B70922EA935000623CC3 /* RZHopeCollectionReusableView.swift */,
+				CCF0B70D22EAF47400623CC3 /* RZHopeCollectionFooterReusableView.swift */,
+				CC3AA06022ED642F00307E26 /* RZCartoonSortListTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCF0B6C422E1A93000623CC3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CC3AA06A22F0404E00307E26 /* DetailVC */,
+				CCF0B6DA22E1AB8B00623CC3 /* RZCartoonHomePageViewController.swift */,
+				CCF0B6E522E54DBC00623CC3 /* RZCartoonRecommendController.swift */,
+				CCF0B70F22EB3A0600623CC3 /* RZCartoonVipHomeViewController.swift */,
+				CC3AA05A22EC6F3800307E26 /* RZCartoonSubscribeHomeViewController.swift */,
+				CC3AA05C22EC6F7600307E26 /* RZCartoonSortHomeViewController.swift */,
+				CC3AA05E22EC8D0B00307E26 /* RZCartoonSearchHomeViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CCF0B6C522E1A96000623CC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCF0B6C622E1A96400623CC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCF0B6C722E1A96900623CC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC3AA06422EE91A200307E26 /* RZCartoonCateCollectionViewCell.swift */,
+				CCBAACEF22F4397E00C8348C /* RZCartoonCateDetailTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCF0B6C822E1A96B00623CC3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6DC22E1ABA500623CC3 /* RZCartoonCateViewController.swift */,
+				CCBAACED22F4394A00C8348C /* RZCartoonCateDetailViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CCF0B6C922E1A98200623CC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCF0B6CA22E1A98700623CC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCF0B6CB22E1A98C00623CC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCF0B6CC22E1A98F00623CC3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6DE22E1ABB600623CC3 /* RZCartoonBookViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CCF0B6CD22E1A9A000623CC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CCF0B6CE22E1A9A300623CC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CCF0B6CF22E1A9A600623CC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D076B2303A04800DDB5AC /* RZCartoonMineHeadView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CCF0B6D022E1A9AA00623CC3 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6E022E1ABC800623CC3 /* RZCartoonMineViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CCF0B6D122E1A9F200623CC3 /* RZCartoonBaseThing */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6F422E5BBB300623CC3 /* BaseView */,
+				CCF0B6D422E1AAEE00623CC3 /* RZCartonBaseTabbarController.swift */,
+				CCF0B6D622E1AB1600623CC3 /* RZCartoonBaseNaviController.swift */,
+				CCF0B6D822E1AB3D00623CC3 /* RZCartoonBaseViewController.swift */,
+				CCF0B6E322E54AEB00623CC3 /* RZCartoonPageControlViewController.swift */,
+				CC3AA06622EED0C100307E26 /* RZCartoonBaseWebViewController.swift */,
+			);
+			path = RZCartoonBaseThing;
+			sourceTree = "<group>";
+		};
+		CCF0B6D222E1AA0500623CC3 /* RZCartoonExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6EA22E5556600623CC3 /* RZCartoonUIColorExtension.swift */,
+			);
+			path = RZCartoonExtension;
+			sourceTree = "<group>";
+		};
+		CCF0B6D322E1AA7F00623CC3 /* RZCartoonTool */ = {
+			isa = PBXGroup;
+			children = (
+				CC3AA07522F1391300307E26 /* ParallaxHeader */,
+				CCF0B6F022E59CD300623CC3 /* RZCartoonCollectionFlowLayout.swift */,
+				CCBAAD0423016F6000C8348C /* UCollectionViewAlignedLayout.swift */,
+				CC3AA08522F27B4100307E26 /* RZProgressHUD.swift */,
+				CCBAACFD22FD5FE900C8348C /* SnapKitExtension.swift */,
+			);
+			path = RZCartoonTool;
+			sourceTree = "<group>";
+		};
+		CCF0B6E222E1C85100623CC3 /* RZNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6F722E6A5DA00623CC3 /* RZCartoonAlamofireTool.swift */,
+			);
+			path = RZNetwork;
+			sourceTree = "<group>";
+		};
+		CCF0B6E722E5532200623CC3 /* RZGlobalThing */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6E822E5545700623CC3 /* RZCartoonDefineFile.swift */,
+				CCF0B70522E83A4E00623CC3 /* RZCartoonNetworkName.swift */,
+			);
+			path = RZGlobalThing;
+			sourceTree = "<group>";
+		};
+		CCF0B6F422E5BBB300623CC3 /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0B6F522E5BBD800623CC3 /* RZCartoonBaseCollectionViewCell.swift */,
+				CCF0B70722EA929C00623CC3 /* RZBaseCollectionReusableView.swift */,
+				CC3AA06222ED646E00307E26 /* RZCartoonBaseTableViewCell.swift */,
+				CC3AA07322F0495300307E26 /* RZCartoonBaseView.swift */,
+				CCBAAD002301607C00C8348C /* RZCartoonSectionSpaceView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF0B68A22E1A33300623CC3 /* CartoonSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF0B6B322E1A33600623CC3 /* Build configuration list for PBXNativeTarget "CartoonSwift" */;
+			buildPhases = (
+				433F7E1527D72956897809C9 /* [CP] Check Pods Manifest.lock */,
+				CCF0B68722E1A33300623CC3 /* Sources */,
+				CCF0B68822E1A33300623CC3 /* Frameworks */,
+				CCF0B68922E1A33300623CC3 /* Resources */,
+				5864D8B6CE38AE5EC27B4E84 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CartoonSwift;
+			productName = CartoonSwift;
+			productReference = CCF0B68B22E1A33300623CC3 /* CartoonSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF0B69E22E1A33600623CC3 /* CartoonSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF0B6B622E1A33600623CC3 /* Build configuration list for PBXNativeTarget "CartoonSwiftTests" */;
+			buildPhases = (
+				4CCE63E577F6D7AB19637365 /* [CP] Check Pods Manifest.lock */,
+				CCF0B69B22E1A33600623CC3 /* Sources */,
+				CCF0B69C22E1A33600623CC3 /* Frameworks */,
+				CCF0B69D22E1A33600623CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF0B6A122E1A33600623CC3 /* PBXTargetDependency */,
+			);
+			name = CartoonSwiftTests;
+			productName = CartoonSwiftTests;
+			productReference = CCF0B69F22E1A33600623CC3 /* CartoonSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF0B6A922E1A33600623CC3 /* CartoonSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF0B6B922E1A33600623CC3 /* Build configuration list for PBXNativeTarget "CartoonSwiftUITests" */;
+			buildPhases = (
+				8EE2F737AB1E422D208485BC /* [CP] Check Pods Manifest.lock */,
+				CCF0B6A622E1A33600623CC3 /* Sources */,
+				CCF0B6A722E1A33600623CC3 /* Frameworks */,
+				CCF0B6A822E1A33600623CC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF0B6AC22E1A33600623CC3 /* PBXTargetDependency */,
+			);
+			name = CartoonSwiftUITests;
+			productName = CartoonSwiftUITests;
+			productReference = CCF0B6AA22E1A33600623CC3 /* CartoonSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF0B68322E1A33300623CC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = rz;
+				TargetAttributes = {
+					CCF0B68A22E1A33300623CC3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					CCF0B69E22E1A33600623CC3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CCF0B68A22E1A33300623CC3;
+					};
+					CCF0B6A922E1A33600623CC3 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = CCF0B68A22E1A33300623CC3;
+					};
+				};
+			};
+			buildConfigurationList = CCF0B68622E1A33300623CC3 /* Build configuration list for PBXProject "CartoonSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF0B68222E1A33300623CC3;
+			productRefGroup = CCF0B68C22E1A33300623CC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF0B68A22E1A33300623CC3 /* CartoonSwift */,
+				CCF0B69E22E1A33600623CC3 /* CartoonSwiftTests */,
+				CCF0B6A922E1A33600623CC3 /* CartoonSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF0B68922E1A33300623CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0B69922E1A33600623CC3 /* LaunchScreen.storyboard in Resources */,
+				CCF0B69622E1A33500623CC3 /* Assets.xcassets in Resources */,
+				CCF0B69422E1A33300623CC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0B69D22E1A33600623CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0B6A822E1A33600623CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		433F7E1527D72956897809C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CartoonSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CCE63E577F6D7AB19637365 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CartoonSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5864D8B6CE38AE5EC27B4E84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CartoonSwift/Pods-CartoonSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/HMSegmentedControl/HMSegmentedControl.framework",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/LLCycleScrollView/LLCycleScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HMSegmentedControl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LLCycleScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAlamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CartoonSwift/Pods-CartoonSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EE2F737AB1E422D208485BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CartoonSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF0B68722E1A33300623CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3AA06122ED642F00307E26 /* RZCartoonSortListTableViewCell.swift in Sources */,
+				CCF0B6E122E1ABC800623CC3 /* RZCartoonMineViewController.swift in Sources */,
+				CCF0B6E622E54DBC00623CC3 /* RZCartoonRecommendController.swift in Sources */,
+				CC3AA06922EFDA5700307E26 /* RZCartoonDetailPageViewController.swift in Sources */,
+				CCF0B6DF22E1ABB600623CC3 /* RZCartoonBookViewController.swift in Sources */,
+				CCF0B6F822E6A5DA00623CC3 /* RZCartoonAlamofireTool.swift in Sources */,
+				CC3AA08622F27B4100307E26 /* RZProgressHUD.swift in Sources */,
+				CCBAAD0523016F6100C8348C /* UCollectionViewAlignedLayout.swift in Sources */,
+				CCF0B6DD22E1ABA500623CC3 /* RZCartoonCateViewController.swift in Sources */,
+				CCF0B69122E1A33300623CC3 /* ViewController.swift in Sources */,
+				CCBAACFE22FD5FEB00C8348C /* SnapKitExtension.swift in Sources */,
+				CCF0B6FC22E6F41800623CC3 /* RZCartoonHopeModel.swift in Sources */,
+				CCF0B6F322E5BB5B00623CC3 /* RZCartoonHopeCollectionViewCell.swift in Sources */,
+				CCBAAD012301607E00C8348C /* RZCartoonSectionSpaceView.swift in Sources */,
+				CC3AA06722EED0C100307E26 /* RZCartoonBaseWebViewController.swift in Sources */,
+				CCF0B6E422E54AEB00623CC3 /* RZCartoonPageControlViewController.swift in Sources */,
+				CCBAACF422F8193D00C8348C /* RZCartoonAnimationTableViewCell.swift in Sources */,
+				CC3AA06522EE91A200307E26 /* RZCartoonCateCollectionViewCell.swift in Sources */,
+				CCF0B71022EB3A0700623CC3 /* RZCartoonVipHomeViewController.swift in Sources */,
+				CC3AA06E22F0445A00307E26 /* RZCartoonCommentListViewController.swift in Sources */,
+				CC3AA06C22F0444000307E26 /* RZCartoonTabDetailViewController.swift in Sources */,
+				CC3AA08022F16D0E00307E26 /* RZCartoonTabListCollectionViewCell.swift in Sources */,
+				CC3AA05F22EC8D0B00307E26 /* RZCartoonSearchHomeViewController.swift in Sources */,
+				CCF0B6DB22E1AB8B00623CC3 /* RZCartoonHomePageViewController.swift in Sources */,
+				CC3D076C2303A04800DDB5AC /* RZCartoonMineHeadView.swift in Sources */,
+				CCF0B70822EA929C00623CC3 /* RZBaseCollectionReusableView.swift in Sources */,
+				CCF0B70622E83A4E00623CC3 /* RZCartoonNetworkName.swift in Sources */,
+				CC3AA07922F1391300307E26 /* ParallaxHeaderMode.swift in Sources */,
+				CCBAAD032301610A00C8348C /* RZCartoonSearchHeadView.swift in Sources */,
+				CC3AA05B22EC6F3800307E26 /* RZCartoonSubscribeHomeViewController.swift in Sources */,
+				CC3AA05D22EC6F7600307E26 /* RZCartoonSortHomeViewController.swift in Sources */,
+				CC3D076A230245E200DDB5AC /* RZCartoonHotSearchTableViewCell.swift in Sources */,
+				CC3AA07A22F1391300307E26 /* UIScrollView+ParallaxHeader.swift in Sources */,
+				CCF0B6D722E1AB1600623CC3 /* RZCartoonBaseNaviController.swift in Sources */,
+				CC3AA06322ED646E00307E26 /* RZCartoonBaseTableViewCell.swift in Sources */,
+				CCBAACFA22F96F2A00C8348C /* RZCartoonChapterDetailViewController.swift in Sources */,
+				CC3AA07422F0495300307E26 /* RZCartoonBaseView.swift in Sources */,
+				CCF0B6EB22E5556600623CC3 /* RZCartoonUIColorExtension.swift in Sources */,
+				CCF0B6D922E1AB3D00623CC3 /* RZCartoonBaseViewController.swift in Sources */,
+				CC3AA07222F0492E00307E26 /* RZCartoonDetailHeaderView.swift in Sources */,
+				CC3AA07022F044BD00307E26 /* RZCartoonTableListViewController.swift in Sources */,
+				CCBAACFC22FA5F2A00C8348C /* RZCartoonChapterDetailCollecCell.swift in Sources */,
+				CCF0B6E922E5545700623CC3 /* RZCartoonDefineFile.swift in Sources */,
+				CC3AA07E22F16C4900307E26 /* RZCartoonDetailFirstTableViewCell.swift in Sources */,
+				CCF0B70C22EAE44800623CC3 /* RZCartoonAnotherHopeCollectionViewCell.swift in Sources */,
+				CCF0B68F22E1A33300623CC3 /* AppDelegate.swift in Sources */,
+				CCF0B6D522E1AAEE00623CC3 /* RZCartonBaseTabbarController.swift in Sources */,
+				CCBAACF022F4397E00C8348C /* RZCartoonCateDetailTableViewCell.swift in Sources */,
+				CCBAACEC22F42C5000C8348C /* RZCartoonOtherProductViewController.swift in Sources */,
+				CCBAACEE22F4394A00C8348C /* RZCartoonCateDetailViewController.swift in Sources */,
+				CCF0B6ED22E559A300623CC3 /* RZCartoonHomePageVM.swift in Sources */,
+				CC3AA08222F16D2200307E26 /* RZCartoonCommentTableViewCell.swift in Sources */,
+				CCF0B70E22EAF47400623CC3 /* RZHopeCollectionFooterReusableView.swift in Sources */,
+				CCF0B6F622E5BBD800623CC3 /* RZCartoonBaseCollectionViewCell.swift in Sources */,
+				CCF0B6F122E59CD400623CC3 /* RZCartoonCollectionFlowLayout.swift in Sources */,
+				CC3AA07B22F1391300307E26 /* ParallaxHeader.swift in Sources */,
+				CCF0B70A22EA935000623CC3 /* RZHopeCollectionReusableView.swift in Sources */,
+				CCBAACF222F8190B00C8348C /* RZCartoonAnimaDetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0B69B22E1A33600623CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0B6A422E1A33600623CC3 /* CartoonSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0B6A622E1A33600623CC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0B6AF22E1A33600623CC3 /* CartoonSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF0B6A122E1A33600623CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF0B68A22E1A33300623CC3 /* CartoonSwift */;
+			targetProxy = CCF0B6A022E1A33600623CC3 /* PBXContainerItemProxy */;
+		};
+		CCF0B6AC22E1A33600623CC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF0B68A22E1A33300623CC3 /* CartoonSwift */;
+			targetProxy = CCF0B6AB22E1A33600623CC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF0B69222E1A33300623CC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF0B69322E1A33300623CC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF0B69722E1A33600623CC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF0B69822E1A33600623CC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF0B6B122E1A33600623CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF0B6B222E1A33600623CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF0B6B422E1A33600623CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 711808B5B0FD4B1CE9987315 /* Pods-CartoonSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7338DEUF7S;
+				INFOPLIST_FILE = "$(SRCROOT)/CartoonSwift/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ceshihb.CartoonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCF0B6B522E1A33600623CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 722A0AF2CE9E2BFB098EF87C /* Pods-CartoonSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7338DEUF7S;
+				INFOPLIST_FILE = "$(SRCROOT)/CartoonSwift/Others/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ceshihb.CartoonSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CCF0B6B722E1A33600623CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 581D01AD8D2975E11F029565 /* Pods-CartoonSwiftTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44G3RM5K8V;
+				INFOPLIST_FILE = CartoonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ceshihb.CartoonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartoonSwift.app/CartoonSwift";
+			};
+			name = Debug;
+		};
+		CCF0B6B822E1A33600623CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E301E6D456C422795345B9 /* Pods-CartoonSwiftTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44G3RM5K8V;
+				INFOPLIST_FILE = CartoonSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ceshihb.CartoonSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CartoonSwift.app/CartoonSwift";
+			};
+			name = Release;
+		};
+		CCF0B6BA22E1A33600623CC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 608B097CA7301C12CA9F0C4C /* Pods-CartoonSwiftUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44G3RM5K8V;
+				INFOPLIST_FILE = CartoonSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ceshihb.CartoonSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CartoonSwift;
+			};
+			name = Debug;
+		};
+		CCF0B6BB22E1A33600623CC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C361FB2258E0594F8B4FC542 /* Pods-CartoonSwiftUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44G3RM5K8V;
+				INFOPLIST_FILE = CartoonSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ceshihb.CartoonSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CartoonSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF0B68622E1A33300623CC3 /* Build configuration list for PBXProject "CartoonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0B6B122E1A33600623CC3 /* Debug */,
+				CCF0B6B222E1A33600623CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF0B6B322E1A33600623CC3 /* Build configuration list for PBXNativeTarget "CartoonSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0B6B422E1A33600623CC3 /* Debug */,
+				CCF0B6B522E1A33600623CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF0B6B622E1A33600623CC3 /* Build configuration list for PBXNativeTarget "CartoonSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0B6B722E1A33600623CC3 /* Debug */,
+				CCF0B6B822E1A33600623CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF0B6B922E1A33600623CC3 /* Build configuration list for PBXNativeTarget "CartoonSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0B6BA22E1A33600623CC3 /* Debug */,
+				CCF0B6BB22E1A33600623CC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF0B68322E1A33300623CC3 /* Project object */;
+}

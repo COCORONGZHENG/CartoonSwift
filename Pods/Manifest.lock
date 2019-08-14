@@ -1,0 +1,70 @@
+PODS:
+  - Alamofire (4.8.2)
+  - HandyJSON (5.0.0)
+  - HMSegmentedControl (1.5.5)
+  - Kingfisher (5.6.0)
+  - LLCycleScrollView (1.6.0):
+    - Kingfisher
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.2.0)
+  - RxAlamofire (5.0.0):
+    - RxAlamofire/Core (= 5.0.0)
+  - RxAlamofire/Core (5.0.0):
+    - Alamofire (~> 4.8)
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - SnapKit (5.0.0)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HandyJSON
+  - HMSegmentedControl
+  - LLCycleScrollView
+  - MBProgressHUD
+  - MJRefresh
+  - RxAlamofire
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - HandyJSON
+    - HMSegmentedControl
+    - Kingfisher
+    - LLCycleScrollView
+    - MBProgressHUD
+    - MJRefresh
+    - RxAlamofire
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  HMSegmentedControl: f514c6dad47aa3065e0ed2e8046b73efc71221b9
+  Kingfisher: 1a50df6880a60bae26f3e21a0df3d17b892f5e0b
+  LLCycleScrollView: a08f666671f9fd1a205df9defebc3c217d59abc8
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  RxAlamofire: e7875a012aff55345672d0f70a2a9cd6aeb0f211
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: cfe7745643341a3d8b708bfcbef89d4380b586a2
+
+COCOAPODS: 1.5.3
